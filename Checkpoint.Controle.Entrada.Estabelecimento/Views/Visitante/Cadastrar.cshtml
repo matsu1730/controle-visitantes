@@ -1,0 +1,15 @@
+﻿@model Visitante
+@{
+    ViewData["Title"] = "Cadastro de Visitantes";
+}
+<h1>Cadastro de Visitantes</h1>
+
+<mensagem mensagem="@TempData["cadastro"]"></mensagem>
+
+<form asp-action="cadastrar">
+
+    <partial name="_Form" />
+
+    <botao texto="Cadastrar"></botao>
+    <a asp-action="index" class="btn btn-outline-dark">Lista de Visitantes</a>
+</form>

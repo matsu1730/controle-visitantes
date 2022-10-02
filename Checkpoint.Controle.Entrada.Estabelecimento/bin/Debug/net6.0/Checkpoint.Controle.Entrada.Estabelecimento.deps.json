@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Checkpoint.Controle.Entrada.Estabelecimento/1.0.0": {
+        "runtime": {
+          "Checkpoint.Controle.Entrada.Estabelecimento.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Checkpoint.Controle.Entrada.Estabelecimento/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

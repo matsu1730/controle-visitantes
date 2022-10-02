@@ -1,0 +1,17 @@
+﻿@model Visitante
+
+@{
+    ViewData["title"] = "Atualização de Visitante";
+}
+
+<h1>Atualização de Visitante</h1>
+
+<mensagem mensagem="@TempData["cadastro"]"></mensagem>
+
+<form asp-action="Editar">
+
+    <partial name="_Form" />
+
+    <botao class="btn btn-primary" texto="Editar"></botao>
+    <a asp-action="index" class="btn btn-outline-dark">Lista de Visitantes</a>
+</form>
